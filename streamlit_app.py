@@ -15,7 +15,7 @@ streamlit.text('Hard-Boiled Free-Range Egg')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
-streamlit.text(fruity_response)
+streamlit.text(fruityvice_response)
 
 #pick list
 fruits_selected = streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawberries'])
